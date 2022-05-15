@@ -23,8 +23,8 @@ class SportCar: Car, Togglable {
         self.type = type
         self.productionYear = productionYear
         self.trunkVolume = trunkVolume
-        self.amountOfSeats = 2 //6вопрос - так я инициализировал дополнительные свойства, верно?
-        self.speed = 320 //6вопрос: так я инициализировал дополнительные свойства, верно?
+        self.amountOfSeats = 2 //6ой вопрос - так я инициализировал дополнительные свойства, верно?
+        self.speed = 320 //6ой вопрос: так я инициализировал дополнительные свойства, верно?
     }
 }
 //4. Для каждого класса написать расширение, имплементирующее протокол CustomStringConvertible.
