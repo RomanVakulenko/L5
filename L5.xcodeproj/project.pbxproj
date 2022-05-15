@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ADF2209E282EA0C400F52F76 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2209D282EA0C400F52F76 /* main.swift */; };
+		ADF220A5282EA5D400F52F76 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF220A4282EA5D400F52F76 /* Car.swift */; };
+		ADF220A7282EB4F300F52F76 /* SportCar+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF220A6282EB4F300F52F76 /* SportCar+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		ADF2209A282EA0C400F52F76 /* L5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L5; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF2209D282EA0C400F52F76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ADF220A4282EA5D400F52F76 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		ADF220A6282EB4F300F52F76 /* SportCar+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportCar+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				ADF2209D282EA0C400F52F76 /* main.swift */,
+				ADF220A4282EA5D400F52F76 /* Car.swift */,
+				ADF220A6282EB4F300F52F76 /* SportCar+extension.swift */,
 			);
 			path = L5;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF220A7282EB4F300F52F76 /* SportCar+extension.swift in Sources */,
+				ADF220A5282EA5D400F52F76 /* Car.swift in Sources */,
 				ADF2209E282EA0C400F52F76 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
