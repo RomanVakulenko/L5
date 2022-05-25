@@ -15,17 +15,19 @@ import Foundation
 //4. Для каждого класса написать расширение, имплементирующее протокол CustomStringConvertible.
 //
 //5. Создать несколько объектов каждого класса. Применить к ним различные действия.
-let audiRS6: Car = SportCar(brand: "audi", type: TypeOfCar.sportOne, productionYear: 2020, trunkVolume: 560)
+let audiRS6 = SportCar(brand: "audi", type: TypeOfCar.sportOne, productionYear: 2020, trunkVolume: 560)
+
+//print (audiRS6.engineState.fastestEncoding.rawValue)
 
 //var engine = OnOffSwitch.off //engine is off - считай списал у эпла from swiftbook (это работает)
 //engine.toggle() // state of engine became "on" - считай списал (это работает)
 
-print("двигатель y ауди : \(audiRS6.engineToggle(state: .start))")
+print("двигатель ауди: \(audiRS6.engineAction(engineState: .stop))")
+
 //7ой вопрос: вроде бы тут двигатель у ауди должен запуститься согласно функции "engineToggle" в файле Car - но не срабатывает - почему?
 //8ой вопрос: как надо было написать, чтобы двигатель у ауди запустился?
-
-print ("\nA здесь, в общем случае(Сar) срабатывает - вкл/выкл двигателя: \(ActionsWithEngine.start)")
 
 print("\n", audiRS6) //выведется текст согласно расширению CustomStringConvertible
 
 //6. Вывести сами объекты в консоль.
+

@@ -7,24 +7,23 @@
 
 import Foundation
 //3. Создать два класса, имплементирующих протокол «Car» - trunkCar и sportСar. Описать в них свойства, отличающиеся для спортивного автомобиля и цистерны.
-class SportCar: Car, Togglable {
-    func toggle() {
-        //don't use
-    }
-    
+class SportCar: Car  {
+    var engineState: String
     var brand: String = ""
     var type: TypeOfCar
     var productionYear: Int
     var trunkVolume: Int
     var amountOfSeats: Int
     var speed: Int
-    required init(brand: String, type: TypeOfCar, productionYear: Int, trunkVolume: Int) { //
+
+    init(brand: String, type: TypeOfCar, productionYear: Int, trunkVolume: Int) { //
         self.brand = brand
         self.type = type
         self.productionYear = productionYear
         self.trunkVolume = trunkVolume
         self.amountOfSeats = 2 //6ой вопрос - так я инициализировал дополнительные свойства, верно?
         self.speed = 320 //6ой вопрос: так я инициализировал дополнительные свойства, верно?
+        self .engineState = "Stopped"
     }
 }
 //4. Для каждого класса написать расширение, имплементирующее протокол CustomStringConvertible.
